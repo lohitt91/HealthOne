@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFFF"
+    android:clickable="true">
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="Patient"
+        android:id="@+id/button"
+        android:layout_marginTop="136dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/button2"
+        android:layout_alignStart="@+id/button2"
+        android:layout_alignParentEnd="false"
+        android:background="@android:color/holo_blue_dark"
+        android:textColor="#ffffff"
+        android:elevation="10dp"
+        android:enabled="true" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="Doctor"
+        android:id="@+id/button2"
+        android:layout_marginTop="29dp"
+        android:layout_below="@+id/button"
+        android:layout_alignLeft="@+id/button3"
+        android:layout_alignStart="@+id/button3"
+        android:background="@android:color/holo_blue_dark"
+        android:textColor="#ffffff"
+        android:elevation="10dp"
+        android:enabled="true"
+        android:textSize="20dp" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="Pharmacist"
+        android:id="@+id/button3"
+        android:layout_below="@+id/button2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="37dp"
+        android:background="@android:color/holo_blue_dark"
+        android:textColor="#ffffff"
+        android:elevation="10dp"
+        android:enabled="true"
+        android:fontFamily=""/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="I am a..."
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="55dp" />
+</RelativeLayout>
